@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480C4BDA1B4C096E00E3E000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480C4BD91B4C096E00E3E000 /* main.m */; };
+		480C4BDD1B4C096E00E3E000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480C4BDC1B4C096E00E3E000 /* AppDelegate.m */; };
+		480C4BE01B4C096E00E3E000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480C4BDF1B4C096E00E3E000 /* ViewController.m */; };
+		480C4BE31B4C096E00E3E000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480C4BE11B4C096E00E3E000 /* Main.storyboard */; };
+		480C4BE81B4C096E00E3E000 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480C4BE61B4C096E00E3E000 /* LaunchScreen.xib */; };
+		480C4BF41B4C096E00E3E000 /* WebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480C4BF31B4C096E00E3E000 /* WebViewTests.m */; };
+		480C4BFE1B4C09AA00E3E000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480C4BFD1B4C09AA00E3E000 /* Images.xcassets */; };
+		480C4C001B4C0A7D00E3E000 /* noinet.png in Resources */ = {isa = PBXBuildFile; fileRef = 480C4BFF1B4C0A7D00E3E000 /* noinet.png */; };
+		480C4C041B4C0A8400E3E000 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 480C4C021B4C0A8400E3E000 /* index.html */; };
+		480C4C051B4C0A8400E3E000 /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = 480C4C031B4C0A8400E3E000 /* index2.html */; };
+		480C4C0E1B4C0A8F00E3E000 /* NSObject+MKBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 480C4C091B4C0A8F00E3E000 /* NSObject+MKBlockAdditions.m */; };
+		480C4C0F1B4C0A8F00E3E000 /* UIActionSheet+MKBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 480C4C0B1B4C0A8F00E3E000 /* UIActionSheet+MKBlockAdditions.m */; };
+		480C4C101B4C0A8F00E3E000 /* UIAlertView+MKBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 480C4C0D1B4C0A8F00E3E000 /* UIAlertView+MKBlockAdditions.m */; };
+		480C4C131B4C0C4C00E3E000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C4C121B4C0C4C00E3E000 /* Foundation.framework */; };
+		480C4C151B4C0C5400E3E000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C4C141B4C0C5400E3E000 /* CoreGraphics.framework */; };
+		480C4C171B4C0C5E00E3E000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C4C161B4C0C5E00E3E000 /* UIKit.framework */; };
+		52B6C7CC1DF481C500BC18C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B6C7CB1DF481C500BC18C4 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		480C4BEE1B4C096E00E3E000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480C4BCC1B4C096E00E3E000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480C4BD31B4C096E00E3E000;
+			remoteInfo = WebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		480C4BD41B4C096E00E3E000 /* Vida Mais Verde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vida Mais Verde.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		480C4BD81B4C096E00E3E000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480C4BD91B4C096E00E3E000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		480C4BDB1B4C096E00E3E000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		480C4BDC1B4C096E00E3E000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480C4BDE1B4C096E00E3E000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		480C4BDF1B4C096E00E3E000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		480C4BE21B4C096E00E3E000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		480C4BE71B4C096E00E3E000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		480C4BED1B4C096E00E3E000 /* Vida Mais VerdeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vida Mais VerdeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		480C4BF21B4C096E00E3E000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480C4BF31B4C096E00E3E000 /* WebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewTests.m; sourceTree = "<group>"; };
+		480C4BFD1B4C09AA00E3E000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		480C4BFF1B4C0A7D00E3E000 /* noinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noinet.png; sourceTree = "<group>"; };
+		480C4C021B4C0A8400E3E000 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		480C4C031B4C0A8400E3E000 /* index2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index2.html; sourceTree = "<group>"; };
+		480C4C071B4C0A8F00E3E000 /* MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBlockAdditions.h; sourceTree = "<group>"; };
+		480C4C081B4C0A8F00E3E000 /* NSObject+MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKBlockAdditions.h"; sourceTree = "<group>"; };
+		480C4C091B4C0A8F00E3E000 /* NSObject+MKBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKBlockAdditions.m"; sourceTree = "<group>"; };
+		480C4C0A1B4C0A8F00E3E000 /* UIActionSheet+MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+MKBlockAdditions.h"; sourceTree = "<group>"; };
+		480C4C0B1B4C0A8F00E3E000 /* UIActionSheet+MKBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+MKBlockAdditions.m"; sourceTree = "<group>"; };
+		480C4C0C1B4C0A8F00E3E000 /* UIAlertView+MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKBlockAdditions.h"; sourceTree = "<group>"; };
+		480C4C0D1B4C0A8F00E3E000 /* UIAlertView+MKBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKBlockAdditions.m"; sourceTree = "<group>"; };
+		480C4C111B4C0B3100E3E000 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		480C4C121B4C0C4C00E3E000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		480C4C141B4C0C5400E3E000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		480C4C161B4C0C5E00E3E000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48357F861B4C1757003D538F /* Vida Mais Verde_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vida Mais Verde_Prefix.pch"; sourceTree = "<group>"; };
+		52B6C7CB1DF481C500BC18C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AFD66A4A249CEC3000470422 /* Vida Mais Verde.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vida Mais Verde.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480C4BD11B4C096E00E3E000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B6C7CC1DF481C500BC18C4 /* AVFoundation.framework in Frameworks */,
+				480C4C171B4C0C5E00E3E000 /* UIKit.framework in Frameworks */,
+				480C4C151B4C0C5400E3E000 /* CoreGraphics.framework in Frameworks */,
+				480C4C131B4C0C4C00E3E000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C4BEA1B4C096E00E3E000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480C4BCB1B4C096E00E3E000 = {
+			isa = PBXGroup;
+			children = (
+				AFD66A4A249CEC3000470422 /* Vida Mais Verde.entitlements */,
+				480C4C161B4C0C5E00E3E000 /* UIKit.framework */,
+				480C4C141B4C0C5400E3E000 /* CoreGraphics.framework */,
+				480C4C121B4C0C4C00E3E000 /* Foundation.framework */,
+				480C4BD61B4C096E00E3E000 /* WebView */,
+				480C4BF01B4C096E00E3E000 /* WebViewTests */,
+				480C4BD51B4C096E00E3E000 /* Products */,
+				52B6C7CA1DF481C500BC18C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		480C4BD51B4C096E00E3E000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480C4BD41B4C096E00E3E000 /* Vida Mais Verde.app */,
+				480C4BED1B4C096E00E3E000 /* Vida Mais VerdeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480C4BD61B4C096E00E3E000 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				480C4C061B4C0A8F00E3E000 /* MKAdditions */,
+				480C4C011B4C0A8400E3E000 /* local-www */,
+				480C4BFF1B4C0A7D00E3E000 /* noinet.png */,
+				48357F861B4C1757003D538F /* Vida Mais Verde_Prefix.pch */,
+				480C4BDB1B4C096E00E3E000 /* AppDelegate.h */,
+				480C4BDC1B4C096E00E3E000 /* AppDelegate.m */,
+				480C4BDE1B4C096E00E3E000 /* ViewController.h */,
+				480C4BDF1B4C096E00E3E000 /* ViewController.m */,
+				480C4BE11B4C096E00E3E000 /* Main.storyboard */,
+				480C4BE61B4C096E00E3E000 /* LaunchScreen.xib */,
+				480C4BFD1B4C09AA00E3E000 /* Images.xcassets */,
+				480C4BD71B4C096E00E3E000 /* Supporting Files */,
+				480C4C111B4C0B3100E3E000 /* Constants.h */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		480C4BD71B4C096E00E3E000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480C4BD81B4C096E00E3E000 /* Info.plist */,
+				480C4BD91B4C096E00E3E000 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		480C4BF01B4C096E00E3E000 /* WebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				480C4BF31B4C096E00E3E000 /* WebViewTests.m */,
+				480C4BF11B4C096E00E3E000 /* Supporting Files */,
+			);
+			path = WebViewTests;
+			sourceTree = "<group>";
+		};
+		480C4BF11B4C096E00E3E000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480C4BF21B4C096E00E3E000 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		480C4C011B4C0A8400E3E000 /* local-www */ = {
+			isa = PBXGroup;
+			children = (
+				480C4C021B4C0A8400E3E000 /* index.html */,
+				480C4C031B4C0A8400E3E000 /* index2.html */,
+			);
+			path = "local-www";
+			sourceTree = "<group>";
+		};
+		480C4C061B4C0A8F00E3E000 /* MKAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				480C4C071B4C0A8F00E3E000 /* MKBlockAdditions.h */,
+				480C4C081B4C0A8F00E3E000 /* NSObject+MKBlockAdditions.h */,
+				480C4C091B4C0A8F00E3E000 /* NSObject+MKBlockAdditions.m */,
+				480C4C0A1B4C0A8F00E3E000 /* UIActionSheet+MKBlockAdditions.h */,
+				480C4C0B1B4C0A8F00E3E000 /* UIActionSheet+MKBlockAdditions.m */,
+				480C4C0C1B4C0A8F00E3E000 /* UIAlertView+MKBlockAdditions.h */,
+				480C4C0D1B4C0A8F00E3E000 /* UIAlertView+MKBlockAdditions.m */,
+			);
+			path = MKAdditions;
+			sourceTree = "<group>";
+		};
+		52B6C7CA1DF481C500BC18C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B6C7CB1DF481C500BC18C4 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480C4BD31B4C096E00E3E000 /* Vida Mais Verde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480C4BF71B4C096E00E3E000 /* Build configuration list for PBXNativeTarget "Vida Mais Verde" */;
+			buildPhases = (
+				480C4BD01B4C096E00E3E000 /* Sources */,
+				480C4BD11B4C096E00E3E000 /* Frameworks */,
+				480C4BD21B4C096E00E3E000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vida Mais Verde";
+			productName = WebView;
+			productReference = 480C4BD41B4C096E00E3E000 /* Vida Mais Verde.app */;
+			productType = "com.apple.product-type.application";
+		};
+		480C4BEC1B4C096E00E3E000 /* Vida Mais VerdeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480C4BFA1B4C096E00E3E000 /* Build configuration list for PBXNativeTarget "Vida Mais VerdeTests" */;
+			buildPhases = (
+				480C4BE91B4C096E00E3E000 /* Sources */,
+				480C4BEA1B4C096E00E3E000 /* Frameworks */,
+				480C4BEB1B4C096E00E3E000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480C4BEF1B4C096E00E3E000 /* PBXTargetDependency */,
+			);
+			name = "Vida Mais VerdeTests";
+			productName = WebViewTests;
+			productReference = 480C4BED1B4C096E00E3E000 /* Vida Mais VerdeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		480C4BCC1B4C096E00E3E000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = OnlineAppCreator.com;
+				TargetAttributes = {
+					480C4BD31B4C096E00E3E000 = {
+						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					480C4BEC1B4C096E00E3E000 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 480C4BD31B4C096E00E3E000;
+					};
+				};
+			};
+			buildConfigurationList = 480C4BCF1B4C096E00E3E000 /* Build configuration list for PBXProject "Vida Mais Verde" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 480C4BCB1B4C096E00E3E000;
+			productRefGroup = 480C4BD51B4C096E00E3E000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480C4BD31B4C096E00E3E000 /* Vida Mais Verde */,
+				480C4BEC1B4C096E00E3E000 /* Vida Mais VerdeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480C4BD21B4C096E00E3E000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480C4C041B4C0A8400E3E000 /* index.html in Resources */,
+				480C4BFE1B4C09AA00E3E000 /* Images.xcassets in Resources */,
+				480C4C051B4C0A8400E3E000 /* index2.html in Resources */,
+				480C4BE31B4C096E00E3E000 /* Main.storyboard in Resources */,
+				480C4C001B4C0A7D00E3E000 /* noinet.png in Resources */,
+				480C4BE81B4C096E00E3E000 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C4BEB1B4C096E00E3E000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480C4BD01B4C096E00E3E000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480C4BE01B4C096E00E3E000 /* ViewController.m in Sources */,
+				480C4BDD1B4C096E00E3E000 /* AppDelegate.m in Sources */,
+				480C4BDA1B4C096E00E3E000 /* main.m in Sources */,
+				480C4C0F1B4C0A8F00E3E000 /* UIActionSheet+MKBlockAdditions.m in Sources */,
+				480C4C0E1B4C0A8F00E3E000 /* NSObject+MKBlockAdditions.m in Sources */,
+				480C4C101B4C0A8F00E3E000 /* UIAlertView+MKBlockAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480C4BE91B4C096E00E3E000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480C4BF41B4C096E00E3E000 /* WebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		480C4BEF1B4C096E00E3E000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480C4BD31B4C096E00E3E000 /* Vida Mais Verde */;
+			targetProxy = 480C4BEE1B4C096E00E3E000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		480C4BE11B4C096E00E3E000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480C4BE21B4C096E00E3E000 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		480C4BE61B4C096E00E3E000 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480C4BE71B4C096E00E3E000 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480C4BF51B4C096E00E3E000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		480C4BF61B4C096E00E3E000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		480C4BF81B4C096E00E3E000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = "";
+				ASSETCATALOG_NOTICES = NO;
+				ASSETCATALOG_WARNINGS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Vida Mais Verde.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPT6W3QM77;
+				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
+				GCC_PREFIX_HEADER = "WebView/Vida Mais Verde_Prefix.pch";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = WebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytevisionbr.vidamaisverde;
+				PRODUCT_NAME = "Vida Mais Verde";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		480C4BF91B4C096E00E3E000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = "";
+				ASSETCATALOG_NOTICES = NO;
+				ASSETCATALOG_WARNINGS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Vida Mais Verde.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPT6W3QM77;
+				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
+				GCC_PREFIX_HEADER = "WebView/Vida Mais Verde_Prefix.pch";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = WebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytevisionbr.vidamaisverde;
+				PRODUCT_NAME = "Vida Mais Verde";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		480C4BFB1B4C096E00E3E000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = RPT6W3QM77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codecanyon.webviewgold.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vida Mais Verde.app/Vida Mais Verde";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		480C4BFC1B4C096E00E3E000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = RPT6W3QM77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codecanyon.webviewgold.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vida Mais Verde.app/Vida Mais Verde";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480C4BCF1B4C096E00E3E000 /* Build configuration list for PBXProject "Vida Mais Verde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480C4BF51B4C096E00E3E000 /* Debug */,
+				480C4BF61B4C096E00E3E000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480C4BF71B4C096E00E3E000 /* Build configuration list for PBXNativeTarget "Vida Mais Verde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480C4BF81B4C096E00E3E000 /* Debug */,
+				480C4BF91B4C096E00E3E000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480C4BFA1B4C096E00E3E000 /* Build configuration list for PBXNativeTarget "Vida Mais VerdeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480C4BFB1B4C096E00E3E000 /* Debug */,
+				480C4BFC1B4C096E00E3E000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 480C4BCC1B4C096E00E3E000 /* Project object */;
+}
